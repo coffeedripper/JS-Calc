@@ -1,12 +1,12 @@
 .errthang {
-  margin-top: 2em;
+  margin-top: 8em;
   max-width: 320px;
   background-color: white;
   border-style: solid;
   border-color: black;
-  border-width: medium;
+  border-width: thick;
+  border-radius: 10%;
 }
-
 h1 {
   font-size: 2rem;
   font-weight: bold;
@@ -14,7 +14,7 @@ h1 {
   margin-bottom: 1em;
 }
 .btn {
-  margin: 5px 0;
+  margin: 4px 0;
   border-style: solid;
   border-color: black;
   border-width: medium;
@@ -23,18 +23,20 @@ h1 {
   font-weight: bold;
   text-align: center;
 }
-
+.btn-secondary {
+  background-color: rgb(218, 230, 0);
+}
 .c {
   width: 90%;
   margin-left: 1em;
   margin-bottom: 2em;
 }
-
 .uneditable-input {
   margin: 0 auto;
   text-align: right;
   height: 42px;
-  font-size: 42px;
+  font-size: 40px;
+  padding-right: 2px;
   line-height: 35px;
   width: 90%;
   background-color: rgb(134, 219, 255);
