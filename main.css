@@ -46,3 +46,8 @@ h1 {
   border-width: medium;
   margin-bottom: .25em;
 }
+
+$("#1").click(function(){
+  $("#display").append("1")
+
+})
