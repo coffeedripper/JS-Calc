@@ -1,5 +1,4 @@
 // num pad
-
 $(function(){
 
   var calc = $("#display");
