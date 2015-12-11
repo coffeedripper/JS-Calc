@@ -2,6 +2,8 @@
 
 $(function(){
 
+  var calc = $("#display");
+
 $("#1").click(function() {
   $("#display").append("1");
 
@@ -65,13 +67,15 @@ $("#decimal").click(function() {
   $("#display").append(".");
 
 });
-$("#equals").click(function() {
-  $("#display").append("=");
-
-});
 
 $(".c").click(function() {
   $("#display").text(" ");
 
+});
+
+//special
+
+$("#equals").click(function() {
+ calc.text(eval(calc.text()));
 });
 });
