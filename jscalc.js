@@ -1,5 +1,24 @@
+
+// if(localStorage.getItem("log")) {
+// $("#comment").val("log");
+
+// if(localStorage.getItem("log")) {
+// $("#comment").val("3");
+ // }
+// $("#comment").append(eval(calc.text()) + ", " );
+
 // num pad
 $(function(){
+
+// localStorage.setItem("log","6");
+
+  // $("#comment").val(localStorage.getItem('log'));
+
+  // var retrievedObject = localStorage.getItem('testObject');
+
+  var logArr = [];
+
+  var sum;
 
   var calc = $("#display");
 
@@ -69,12 +88,46 @@ $("#decimal").click(function() {
 
 $(".c").click(function() {
   $("#display").text(" ");
+  // $("#comment").text(" ");
 
 });
 
 //special
 
+// $("#equals").click(function() {
+//  calc.text(eval(calc.text()));
+
 $("#equals").click(function() {
  calc.text(eval(calc.text()));
+
+ $("#comment").append(eval(calc.text()) + ", " );
+
+ // var storeVal = $("#comment");
+
+ // localStorage.log = $(eval(calc.text()) + ", " );
+
+ // $localStorage.log = calc.text(eval(calc.text())) ;
+
+// console.log(eval(calc.text()));
+
+console.log(eval(calc.text()));
+
+
+
+logArr.push(eval(calc.text()));
+
+
+console.log(logArr[0]);
+
+
+
+
+
+
+
+
+
+
+
 });
 });

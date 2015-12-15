@@ -1,5 +1,5 @@
 .errthang {
-  margin-top: 8em;
+  margin-top: 2em;
   max-width: 320px;
   background-color: white;
   border-style: solid;
@@ -47,7 +47,27 @@ h1 {
   margin-bottom: .25em;
 }
 
-$("#1").click(function(){
-  $("#display").append("1")
+.log {
+  font-size: 2rem;
+  color: red;
+  font-weight: bold;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#comment {
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
+  max-width: 250px;
+  text-align: center;
+  margin-left: 30px;
+
+
+}
+
+
+
+
 
 })
